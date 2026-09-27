@@ -1,0 +1,15 @@
+# Core (required)
+numpy>=1.24
+opencv-python-headless>=4.8
+scikit-image>=0.21
+
+# Optional: English/Latin script detection for the `filler` class.
+# Also needs the Tesseract binary (see README). Without it the pipeline
+# falls back to a script-shape heuristic.
+pytesseract>=0.3.10
+
+# Optional: neural line detection backend (--line-backend kraken)
+# kraken>=5.0
+
+# Development
+pytest>=7.0

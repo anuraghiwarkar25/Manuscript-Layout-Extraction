@@ -1,0 +1,11 @@
+name: manuscript-layout
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - numpy>=1.24
+  - opencv>=4.8
+  - scikit-image>=0.21
+  - tesseract          # optional, enables the English-text check
+  - pytesseract>=0.3.10
+  - pytest>=7.0
